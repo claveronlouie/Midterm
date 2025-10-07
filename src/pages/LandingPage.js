@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-import "./LandingPage.css"; // Create this CSS file below
+import "./LandingPage.css"; 
+import Footer from "../components/Footer";
 
 export default function LandingPage() {
   return (
     <div className="landing-container">
-      {/* ===== NAVBAR ===== */}
+      
       <header className="landing-navbar">
         <h3>Inventory Management System</h3>
         <div className="nav-buttons">
@@ -13,7 +14,7 @@ export default function LandingPage() {
         </div>
       </header>
 
-      {/* ===== MAIN CONTENT ===== */}
+     
       <main className="landing-main">
         <div className="text-content">
           <h1>Welcome to Inventory<br />Management System</h1>
@@ -25,10 +26,8 @@ export default function LandingPage() {
         </div>
       </main>
 
-      {/* ===== FOOTER ===== */}
-      <footer className="landing-footer">
-        <p>Footer</p>
-      </footer>
+      
+      <Footer className="landing-footer"/>
     </div>
   );
 }

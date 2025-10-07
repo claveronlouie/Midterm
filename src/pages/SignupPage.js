@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import "./AuthPages.css";
+import Footer from "../components/Footer";
 
 export default function SignupPage() {
   const navigate = useNavigate();
@@ -31,7 +32,7 @@ export default function SignupPage() {
       <header className="landing-navbar">
         <h3>Inventory Management System</h3>
         <div className="nav-buttons">
-          <Link to="/" className="btn login">Home</Link>
+          <Link to="/" className="btn login">Back</Link>
         </div>
       </header>
 
@@ -50,9 +51,7 @@ export default function SignupPage() {
         </div>
       </main>
 
-      <footer className="landing-footer">
-        <p>Footer</p>
-      </footer>
+      <Footer className="landing-footer"/>
     </div>
   );
 }

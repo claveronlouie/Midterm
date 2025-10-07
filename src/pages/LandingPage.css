@@ -6,9 +6,9 @@
   font-family: "Inter", sans-serif;
 }
 
-/* ===== NAVBAR ===== */
+
 .landing-navbar {
-  background-color: #e5e7eb; /* light gray */
+  background-color: #e5e7eb; 
   padding: 15px 50px;
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@
 }
 
 .nav-buttons .login {
-  background-color: #3b82f6; /* blue */
+  background-color: #3b82f6; 
   color: #fff;
 }
 
@@ -40,7 +40,7 @@
   color: #fff;
 }
 
-/* ===== MAIN ===== */
+
 .landing-main {
   flex: 1;
   display: flex;
@@ -76,7 +76,7 @@
   font-weight: 500;
 }
 
-/* ===== FOOTER ===== */
+
 .landing-footer {
   background-color: #000;
   color: #fff;

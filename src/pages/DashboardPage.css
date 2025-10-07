@@ -6,7 +6,7 @@
   background-color: #ffffff;
 }
 
-/* Reuse navbar & footer from LandingPage style */
+
 .landing-navbar {
   background-color: #e5e7eb;
   padding: 15px 50px;
@@ -37,7 +37,7 @@
   padding: 10px 0;
 }
 
-/* Main Content */
+
 .dashboard-main {
   flex: 1;
   padding: 40px 80px;
@@ -49,7 +49,7 @@
   font-weight: 600;
 }
 
-/* Form */
+
 .item-form {
   display: flex;
   flex-wrap: wrap;
@@ -75,7 +75,7 @@
   font-weight: 500;
 }
 
-/* Table */
+
 .item-table {
   width: 100%;
   border-collapse: collapse;
@@ -97,7 +97,7 @@
   background-color: #f9fafb;
 }
 
-/* Buttons in table */
+
 .btn.edit {
   background-color: #3b82f6;
   color: #fff;
