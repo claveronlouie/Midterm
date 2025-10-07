@@ -1,0 +1,86 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.landing-navbar {
+  background-color: #e5e7eb; /* light gray */
+  padding: 15px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-navbar h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #111827;
+}
+
+.nav-buttons .btn {
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-buttons .login {
+  background-color: #3b82f6; /* blue */
+  color: #fff;
+}
+
+.nav-buttons .signup {
+  background-color: #000;
+  color: #fff;
+}
+
+/* ===== MAIN ===== */
+.landing-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 80px 20px;
+}
+
+.text-content {
+  max-width: 700px;
+}
+
+.text-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.text-content p {
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.get-started {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* ===== FOOTER ===== */
+.landing-footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+}
