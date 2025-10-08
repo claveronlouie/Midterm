@@ -5,11 +5,11 @@ const Sidebar = () => {
   const location = useLocation();
 
   const menuItems = [
-    { name: "Home", path: "/dashboard/home" },
-    { name: "Inventory", path: "/dashboard/inventory" },
-    { name: "Reports", path: "/dashboard/reports" },
-    { name: "Settings", path: "/dashboard/settings" },
-    { name: "Logout", path: "/login" },
+    { name: "Home", path: "/main" },
+    {name: "Dashboard", path: "/main/dashboard" },
+    { name: "Inventory", path: "/main/inventory" },
+    { name: "Reports", path: "/main/reports" },
+    { name: "Settings", path: "/main/settings" },
   ];
 
   return (
@@ -45,7 +45,6 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     padding: "1rem",
-    borderRight: "1px solid #e5e7eb",
   },
   logo: {
     fontSize: "1.5rem",
@@ -53,11 +52,7 @@ const styles = {
     color: "#2563eb",
     marginBottom: "2rem",
   },
-  menu: {
-    listStyleType: "none",
-    padding: 0,
-    margin: 0,
-  },
+  menu: { listStyleType: "none", padding: 0, margin: 0 },
   link: {
     display: "block",
     padding: "0.75rem 1rem",
